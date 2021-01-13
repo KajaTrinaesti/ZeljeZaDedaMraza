@@ -1,1 +1,0 @@
-{"Ime":"Dino","Prezime":"Karahmetović","Grad":"Bijelo Polje","Dobri":"DA","Zelja":"Želim neku želju"}
