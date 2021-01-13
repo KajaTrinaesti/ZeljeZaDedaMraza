@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>Posalji zelju</title>
+</head>
+<body>
+    <form action="sacuvaj_zelju.php" method="POST">
+        <input placeholder="Vase ime" type="text" name="ime" />
+        <input placeholder="Vase prezime" type="text" name="prezime" />
+        <select name="grad">
+            <option value="">Izaberite grad</option>
+            <option value="Andrijevica">Andrijevica</option>
+            <option value="Bar">Bar</option>
+            <option value="Berane">Berane</option>
+            <option value="Bijelo Polje">Bijelo Polje</option>
+            <option value="Budva">Budva</option>
+            <option value="Cetinje">Cetinje</option>
+            <option value="Danilovgrad">Danilovgrad</option>
+            <option value="Herceg Novi">Herceg Novi</option>
+            <option value="Kolasin">Kolasin</option>
+            <option value="Kotor">Kotor</option>
+            <option value="Mojkovac">Mojkovac</option>
+            <option value="Niksic">Niksic</option>
+            <option value="Plav">Plav</option>
+            <option value="Pluzine">Pluzine</option>
+            <option value="Pljevlja">Pljevlja</option>
+            <option value="Podgorica">Podgorica</option>
+            <option value="Rozaje">Rozaje</option>
+            <option value="Savnik">Savnik</option>
+            <option value="Tivat">Tivat</option>
+            <option value="Ulcinj">Ulcinj</option>
+            <option value="Zabljak">Zabljak</option>
+        </select>
+        <div>
+            <label for="dobri">Da li ste bili dobri?</label>
+            <input type="checkbox" name="dobri" />
+        </div>
+        <textarea placeholder="Vasa zelja" name="zelja"></textarea>
+        <button>Posalji zelju</button>
+    </form>
+</body>
+</html>
